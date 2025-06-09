@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(241, 221, 166);
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+}
+div{
+    background-color:rgb(186, 219, 113);
+    width:80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1{
+    text-align:center;
+    padding:10px;    
+}
+.todo-list{
+    list-style-type:none;
+    padding:0;
+}
+.todo-list li{
+    display:block;
+    background-color:white;
+    padding:5px;
+    border-radius:8px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    margin-bottom:15px;
+    margin:10px auto;
+    line-height:1.1;    
+}
+.sub-item{
+    list-style-type:disc;
+    padding-left:20px;
+}
+.sub-item li{
+    display:list-item;
+}
+
+a{
+    text-decoration:none;
+    color:blue;
+}
+a:visited{
+    color:blueviolet;
+}
+a:hover{
+    color: darkcyan;
+    font-weight: bold;
+}
+a:focus{
+    border:1px solid rgb(0, 204, 255);
+}
+a:active{
+    color: rgb(0, 255, 247);
+}
